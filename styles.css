@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 /* Show the toggle button on mobile */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .nav-toggle {
         display: block;
     }
