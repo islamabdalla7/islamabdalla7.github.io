@@ -49,7 +49,31 @@ nav ul li a:hover {
     border-radius: 0.5rem;
 }
 
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
 
+/* Show the toggle button on mobile */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+}
 
 
 main {
@@ -109,6 +133,12 @@ main {
 .image-content img {
     width: 100%;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .image-content img {
+        display: none;
+    }
 }
 
 /* Portfolio Text */
