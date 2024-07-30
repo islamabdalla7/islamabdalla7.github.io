@@ -417,3 +417,42 @@ main {
     color: #ff69b4;
 }
 
+@media (max-width: 768px) {
+        /* Footer Styles */
+    #contact {
+        background-color: #1c1c1c;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        color: #dcdcdc;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-content p {
+        margin: 0.5rem 0;
+    }
+
+    .footer-content a {
+        color: #ff69b4;
+        text-decoration: none;
+    }
+
+    .footer-content a:hover {
+        text-decoration: underline;
+    }
+
+    .highlight {
+        color: #ff69b4; /* Purple color */
+    }
+
+    .thank-you {
+        display: none;
+    }
+}
+
