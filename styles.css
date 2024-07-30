@@ -58,8 +58,8 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* Show the toggle button on mobile */
-@media (max-width: 1080px) {
+/* Show the toggle button on mobile and adjust nav menu */
+@media (max-width: 768px) {
     .nav-toggle {
         display: block;
     }
@@ -73,7 +73,18 @@ nav ul li a:hover {
     .nav-menu.show {
         display: flex;
     }
+
+    .nav-menu li {
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
 }
+
 
 
 main {
